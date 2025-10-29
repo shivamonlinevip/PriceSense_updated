@@ -1,0 +1,172 @@
+{
+  "name": "PriceSense Dashboard Mockup",
+  "frames": [
+    {
+      "id": "frame1",
+      "type": "FRAME",
+      "name": "Dashboard",
+      "width": 1100,
+      "height": 700,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.97,
+            "g": 0.98,
+            "b": 0.99
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "topbar",
+          "type": "RECT",
+          "name": "Top Bar",
+          "x": 16,
+          "y": 16,
+          "width": 1068,
+          "height": 64,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ],
+          "styles": {
+            "borderRadius": 12
+          }
+        },
+        {
+          "id": "input",
+          "type": "RECT",
+          "name": "Search Input",
+          "x": 32,
+          "y": 28,
+          "width": 820,
+          "height": 40,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.99,
+                "g": 0.99,
+                "b": 0.99
+              }
+            }
+          ]
+        },
+        {
+          "id": "button",
+          "type": "RECT",
+          "name": "Search Button",
+          "x": 864,
+          "y": 28,
+          "width": 150,
+          "height": 40,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.31,
+                "g": 0.27,
+                "b": 0.84
+              }
+            }
+          ]
+        },
+        {
+          "id": "leftCard",
+          "type": "RECT",
+          "name": "Price Card",
+          "x": 16,
+          "y": 96,
+          "width": 720,
+          "height": 520,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ],
+          "styles": {
+            "borderRadius": 12
+          }
+        },
+        {
+          "id": "rightTop",
+          "type": "RECT",
+          "name": "SVI Card",
+          "x": 752,
+          "y": 96,
+          "width": 332,
+          "height": 180,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ],
+          "styles": {
+            "borderRadius": 12
+          }
+        },
+        {
+          "id": "rightBottom",
+          "type": "RECT",
+          "name": "Advice Card",
+          "x": 752,
+          "y": 296,
+          "width": 332,
+          "height": 320,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ],
+          "styles": {
+            "borderRadius": 12
+          }
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "text": {
+      "heading": {
+        "fontSize": 20,
+        "fontWeight": 700
+      },
+      "body": {
+        "fontSize": 14,
+        "fontWeight": 400
+      },
+      "muted": {
+        "fontSize": 12,
+        "color": "#6b7280"
+      }
+    },
+    "colors": {
+      "accent": "#4f46e5",
+      "bg": "#f8fafc",
+      "card": "#ffffff",
+      "muted": "#6b7280"
+    }
+  }
+}

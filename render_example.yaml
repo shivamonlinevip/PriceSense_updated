@@ -1,0 +1,8 @@
+# Render static example - deploy backend as a web service using Node 18
+services:
+  - type: web
+    name: PriceSense-backend
+    env: node
+    plan: free
+    buildCommand: "cd backend && npm install"
+    startCommand: "cd backend && node server.js"

@@ -1,0 +1,27 @@
+{
+  "product": "Apple AirPods Pro 2",
+  "prices": [
+    {
+      "date": "2025-09-01",
+      "price": 24999
+    },
+    {
+      "date": "2025-09-10",
+      "price": 23999
+    },
+    {
+      "date": "2025-09-20",
+      "price": 22999
+    },
+    {
+      "date": "2025-09-30",
+      "price": 21499
+    },
+    {
+      "date": "2025-10-10",
+      "price": 21999
+    }
+  ],
+  "rating": 4.6,
+  "specScore": 9.0
+}
