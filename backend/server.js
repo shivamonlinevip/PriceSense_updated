@@ -1,8 +1,22 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const priceRoutes = require('./routes/price');
+const path = require('path');
 const app = express();
-app.use(bodyParser.json());
-app.use('/api', priceRoutes);
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, ()=> console.log('Server running on', PORT));
+const port = process.env.PORT || 10000;
+
+// parse JSON
+app.use(express.json());
+
+// API route
+app.use('/api/price', require('./routes/price'));
+
+// Serve frontend
+app.use(express.static(path.join(__dirname, '../frontend')));
+
+// catch-all route to serve React frontend
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/index.html'));
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
